@@ -3,41 +3,68 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;
+    position: relative;
+    left: 5px;
 }
 .bg{
     background-image: url("BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.intrologo{
-    border-radius: 20px;
-    border: 2px solid black;
-    margin: 5px auto;
-    background-color: #b7d7e8;
-    padding: 5px;
-    font-family: "Harlow Solid Italic";
-    font-size: 22pt;
-    color: black;
-    -webkit-text-stroke-color: #22c3d4;
-    -webkit-text-stroke-width: 1px;
-    text-align: center;
-    height: auto;
-}
 .intrologo img{
-    margin-bottom: 10px;
+    margin: 5px auto;
+    border-radius: 20px;
+    border: 5px solid black;
 }
 
 /*  Left 2nd    */
 .left2{
-    position: relative;
-    margin-top: 5px;
     border: 5px solid black;
+    margin: 10px auto;
 }
 
-@font-face{
-    font-family: 'Harlow Solid Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Harlow Solid Italic'), url('HARLOWSI_1.woff') format('woff');
-    
+/* Left 3rd */
+.left3{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    text-align: justify;
+    text-indent: 20pt;
+    padding: 5px;
+    margin: 10px auto;
+    font-family: "Calibri";
+    font-size: 17pt;
+}
+
+/* Right 1 */
+.right1{
+    background-image: url("right1.jpg");
+    border-radius: 50px;
+    border: 5px solid black;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 5px;
+}
+
+.right1 img{
+    padding-bottom: 5px;
+}
+
+.ss{
+    color: white;
+    font-family: "Calibri";
+    font-size: 19pt;
+    font-weight: 800;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid white;
+    padding: 4px;
+}
+
+.reasons{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-family: "Calibri";
+    font-size: 17pt;
+    font-weight: 800; 
 }
