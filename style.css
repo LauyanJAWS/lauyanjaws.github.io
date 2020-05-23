@@ -1,0 +1,46 @@
+.leftpanel{
+    background-image: url("LeftPanel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+.bg{
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intrologo{
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: #b7d7e8;
+    padding: 5px;
+    font-family: "Harlow Solid Italic";
+    font-size: 18pt;
+    color: black;
+    -webkit-text-stroke-color: #22c3d4;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    position: relative;
+    left: 5px;
+}
+.intro{
+    top: 25px;
+}
+.intrologo img{
+    margin-bottom: 10px;
+}
+
+@font-face{
+    font-family: 'Harlow Solid Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Harlow Solid Italic'), url('HARLOWSI_1.woff') format('woff');
+    
+}
+
+@media only screen and (max-width: 786px){
+    .intrologo img{
+        width: 130%;
+    }
+}
