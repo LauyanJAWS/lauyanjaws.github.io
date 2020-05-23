@@ -62,9 +62,49 @@
 }
 
 .reasons{
+    padding: 3px;
     color: white;
     background-color: rgba(0,0,0,0.7);
     font-family: "Calibri";
     font-size: 17pt;
-    font-weight: 800; 
+    font-weight: 800;
+    margin-top: 5px;
+}
+/* lower right */
+.pic img{
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 7px solid black;
+}
+
+.pic {
+    font-size: 20pt;
+    text-align: center;
+    font-weight: 700;
+    background-color: #f3ec78;
+    background-image: linear-gradient(to right, #ff9900 0%, #cc0000 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.references{
+    text-align: center;
+    font-size: 23pt;
+    font-weight: 500;
+    -webkit-text-fill-color: cyan; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
+}
+
+a{
+    color: blue;
+    font-size: 13pt;
+    font-weight: 500;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
 }
