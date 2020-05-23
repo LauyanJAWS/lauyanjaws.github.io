@@ -33,15 +33,6 @@
     margin-top: 5px;
     border: 5px solid black;
 }
-.FT{
-    font-size: 22pt;
-    position: absolute;
-    color: white;
-    font-weight: 600;
-    left: 150px;
-    white-space: nowrap;
-}
-
 
 @font-face{
     font-family: 'Harlow Solid Italic';
