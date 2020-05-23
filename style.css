@@ -12,24 +12,36 @@
 .intrologo{
     border-radius: 20px;
     border: 2px solid black;
-    margin: auto;
+    margin: 5px auto;
     background-color: #b7d7e8;
     padding: 5px;
     font-family: "Harlow Solid Italic";
-    font-size: 18pt;
+    font-size: 22pt;
     color: black;
     -webkit-text-stroke-color: #22c3d4;
     -webkit-text-stroke-width: 1px;
     text-align: center;
-    position: relative;
-    left: 5px;
-}
-.intro{
-    top: 25px;
+    height: auto;
 }
 .intrologo img{
     margin-bottom: 10px;
 }
+
+/*  Left 2nd    */
+.left2{
+    position: relative;
+    margin-top: 5px;
+    border: 5px solid black;
+}
+.FT{
+    font-size: 22pt;
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    left: 150px;
+    white-space: nowrap;
+}
+
 
 @font-face{
     font-family: 'Harlow Solid Italic';
@@ -37,10 +49,4 @@
     font-weight: normal;
     src: local('Harlow Solid Italic'), url('HARLOWSI_1.woff') format('woff');
     
-}
-
-@media only screen and (max-width: 786px){
-    .intrologo img{
-        width: 130%;
-    }
 }
